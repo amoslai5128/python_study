@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        margin: 0;
+        padding: 15px;
+    }
+
+    /* Style the header */
+    .header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <img
+            src="https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2018/10/18/w3c_logo-800x400.jpg">
+        <img>
+        <h1>Header</h1>
+    </div>
+
+    <h1>This is a form</h1>
+    <p>My first paragraph.</p>
+
+    {{form|safe }}
+
+    <div>{{ formJSON }}</div>
+</body>
+
+</html>
